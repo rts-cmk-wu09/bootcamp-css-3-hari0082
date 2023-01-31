@@ -1,0 +1,35 @@
+
+#subscribe {
+    margin-top: 10px;
+}
+
+#pilesection {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px lightgrey ;
+    padding: 10px;
+    margin: 0px 120px;
+
+}
+
+#pilesection > p {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.pile {
+    display: flex;
+    border-radius: 100%;
+    padding: 1px;
+    background-color: lightgrey;
+    color: white;
+    font-weight: bold;
+    margin: 0px 150px;
+
+}
+
+.slide-fade > img {
+    width: 100%;
+}

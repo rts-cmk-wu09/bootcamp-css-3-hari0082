@@ -1,0 +1,58 @@
+/* header */
+header {
+    padding: 50px;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.logo-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-header {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+#burger {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px;
+    width: 3vw;
+}
+
+#burger:hover {
+    border: solid red 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
+}
